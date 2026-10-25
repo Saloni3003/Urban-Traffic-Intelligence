@@ -79,3 +79,14 @@ Streamlit will print a local URL, usually `http://localhost:8501`. Open that URL
 - What is a hotspot? A geographic area with a high concentration of records under a chosen spatial aggregation method.
 - Why clean data? Invalid timestamps, coordinates, and missing fields can distort results.
 - What is the limitation? Accident counts are not the same as accident risk; traffic exposure, road length, and vehicle counts would improve the analysis.
+
+## Dataset
+
+This project uses the **US Accidents (March 2023)** dataset.
+
+- **Source:** [US Accidents Dataset — Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
+- **Required file:** `US_Accidents_March23.csv`
+- **Local location expected by the project:** `data/US_Accidents_March23.csv`
+
+Download the dataset from Kaggle and place the CSV file in the `data/` directory when running the project locally. The dataset is excluded from this Git repository because of its large file size.
+.
